@@ -8,8 +8,8 @@
 	</title>
 	<style style="text/css">
 body {
-  background-image: url("https://media.giphy.com/media/gBxL0G0DqZd84/giphy.gif");
-  background-position: 1% 2%;
+  background-image: url("https://ybtraveler.files.wordpress.com/2014/05/clouds-and-blue-sky-background-hd-wallpapers-2560-x-1600-2.jpg");
+  background-position: 50% 50%;
   background-repeat: repeat;
   text-align: center;	
   }
@@ -22,11 +22,11 @@ body {
   }
 		
 	.chatbox {
-	width: 1000px;
-	height: 500px;
-	background-image: url("http://i.imgur.com/Jh7Ho1B.gif");
-	padding: 0.2px;
-	margin: 10px auto;
+	width: 700px;
+	height: 700px;
+	background-image: url("http://c8.alamy.com/comp/EYR24G/the-thermometer-icon-high-and-low-temperature-EYR24G.jpg");
+	padding: 20px;
+	margin: 15px auto;
 	box-shadow: 0 3px #ccc;
 }
 
@@ -40,7 +40,7 @@ body {
 .chat .chat-message {
 		width: 60px;
 		height: 60px;
-		background: #aaa;
+		background: #ccc;
 		border-radius: 50%;
 	}
 	
