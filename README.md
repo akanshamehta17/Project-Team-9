@@ -17,23 +17,29 @@ People willing to volunteer for a cause, often faces hurdle of finding options o
 
 ###Project Idea 3 Title: IOT Sensor Weather Chatbot - APPROVED
 
-![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/chatbot.png)
-
 
 Abstract:
 
-Using IBM Bluemix services (Node-RED, Watson IoT Platform, dashDB and Watson Conversation), we have created a chatbot allowing us to ask sensor questions like: What was the average temperature value you recorded ?, or How bright is day light now ?, How humid it is today? Apart from this, it also sends email notifications as well as alerts!
+- Using IBM Bluemix services (Node-RED, Watson IoT Platform, dashDB and Watson Conversation), we have created a chatbot allowing us to ask sensor questions like: What was the average temperature value you recorded ?, or How bright is day light now ?, How humid it is today? 
 
-Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls. Used Texas Instrument TI CC2650 sensor in order to push real time Temperature/Light/Humidity values through Watson IOT Platform to Dash DB. The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
+- Apart from this, it also sends email notifications as well as alerts!
+
+![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/chatbot.png)
+
+- Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls. 
+
+- Used Texas Instrument TI CC2650 sensor in order to push real time Temperature/Light/Humidity values through Watson IOT Platform to Dash DB. 
+
+- The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
 
 ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
 
 Use Cases :
 
--At home: ask what the average temperature in a room was during a given day, then adjust the start/end time of your heating or air-co depending on that. This could save costs …
+- At home: ask what the average temperature in a room was during a given day, then adjust the start/end time of your heating or air-co depending on that. This could save costs …
 
--Monitoring temperature in places Like laboratory where environment temperature is very important for experiments.
+- Monitoring temperature in places Like laboratory where environment temperature is very important for experiments.
 
--In any industrial environment (e.g. Mining) where Workers Health & Safety is key: what if in the case of a crisis situation, every member of an Operations Centre had the ability to ask in plain English: ‘What is MAXIMUM, MIN temperature, Light intensity, & Humidity’ ? This could save lives … 
+- In any industrial environment (e.g. Mining) where Workers Health & Safety is key: what if in the case of a crisis situation, every member of an Operations Centre had the ability to ask in plain English: ‘What is MAXIMUM, MIN temperature, Light intensity, & Humidity’ ? This could save lives … 
 
--Let's say you are in office and want to monitor temperature of house.
+- Let's say you are in office and want to monitor temperature of house.
