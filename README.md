@@ -24,7 +24,7 @@ Abstract:
 
 - Apart from this, it also sends email notifications as well as alerts!
 
-![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/chatbot.png)
+![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
 
 - Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls. 
 
@@ -32,8 +32,7 @@ Abstract:
 
 - The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
 
-![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
-
+![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/chatbot.png)
 Use Cases :
 
 - At home: ask what the average temperature in a room was during a given day, then adjust the start/end time of your heating or air-co depending on that. This could save costs …
