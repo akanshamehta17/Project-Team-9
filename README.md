@@ -17,11 +17,16 @@ People willing to volunteer for a cause, often faces hurdle of finding options o
 
 ###Project Idea 3 Title: IOT Sensor Weather Chatbot - APPROVED
 
+![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/chatbot.png)
+
+
 Abstract:
 
 Using IBM Bluemix services (Node-RED, Watson IoT Platform, dashDB and Watson Conversation), we have created a chatbot allowing us to ask sensor questions like: What was the average temperature value you recorded ?, or How bright is day light now ?, How humid it is today? Apart from this, it also sends email notifications as well as alerts!
 
 Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls. Used Texas Instrument TI CC2650 sensor in order to push real time Temperature/Light/Humidity values through Watson IOT Platform to Dash DB. The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
+
+![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Node-Red.png)
 
 Use Cases :
 
