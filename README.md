@@ -26,7 +26,7 @@ Using IBM Bluemix services (Node-RED, Watson IoT Platform, dashDB and Watson Con
 
 Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls. Used Texas Instrument TI CC2650 sensor in order to push real time Temperature/Light/Humidity values through Watson IOT Platform to Dash DB. The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
 
-![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Node-Red.png)
+![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
 
 Use Cases :
 
