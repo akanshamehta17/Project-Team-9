@@ -3,7 +3,7 @@
 
 ### Project Idea 3 Title: IOT Sensor Weather Chatbot - APPROVED
 
-Abstract :-— 
+Abstract :-
 
 With everyday changes in the technology today, people need more comfort and easy to use devices. In this project, we have created a weather bot which fulfills a user’s need to know the room temperature, humidity, and intensity of light for
 various purposes including Air Condition mode, conducting a laboratory experiment and maintaining a proper environment
@@ -18,36 +18,39 @@ Summary:
 
 - Apart from this, it also sends email notifications as alerts to the user!
 
-- Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls.
-
-![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
-
-- Used Texas Instrument TI CC2650 sensor in order to push real time Temperature/Light/Humidity values through Watson IoT Platform to Dash DB. 
+- Used Texas Instrument TI CC2650 IOT sensor which senses Temperature/Humidity/Light and other weather related values.
 
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Sensor.jpg)
 
-- Using the CC2650 sensor, we push the real-time values of the surrounding weather captured by the sensor to the cloud using IBM Watson IoT Platform. The graph in the below image shows the data flow.
+- Used the above sensor to push real time Temperature/Light/Humidity values to Watson IoT Platform.
 
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/IoT.png)
 
-
-- Used Watson Conversation service to train the chatbot to analyze the user input and provide appropriate responses.
-  > The dialog is created to train Watson on how to reply to the user.
+- Used Watson Conversation service as machine learning tool to train the chatbot to analyze the user input and provide appropriate responses.
   
- ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Dialog.png)
+![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Dialog.png)
 
+- Created Node-Red flow that glues everything together:
+  
+  (i) Wired Watson IOT Platform node with Dash DB node in order to populate DB with real-time values of the surrounding weather captured by the sensor.
+  
+  (ii) Used Javascript in order to set up Client/Server page and AJAX to invoke Server using REST API calls.
+  
+  (iii) Captured the Conversation’s input and output.
+  
+  (iv) Refined the chatbot answers by SQLs queries where max/min/avg/latest Temp/Humidity/Light values are the user input.
+  
+  (v) Sending the responses to the client, i.e, browser url '/bot'
 
+  ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
 
-- The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
+  (vi) The bot also sends Email alerts to the user when the temperature or humidity value increases or decreases beyond a comfortable range! This range of values is customizable according to the user's needs.
 
-![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/weather-chatbot.png)
+ ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Alert.png)
 
+- Our app: Weather Chatbot! 
 
-
-- The bot also sends Email alerts to the user when the temperature or humidity value increases or decreases beyond a comfortable range! This range of values is customizable according to the user's needs.
-
-![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Alert.png)
-
+ ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/weather-chatbot.png)
 
 
 Use Cases :
