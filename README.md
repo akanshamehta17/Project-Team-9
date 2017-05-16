@@ -24,6 +24,8 @@ Summary:
 
 - Used Texas Instrument TI CC2650 sensor in order to push real time Temperature/Light/Humidity values through Watson IoT Platform to Dash DB. 
 
+![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Sensor.jpg)
+
 - The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
 
 ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/weather-chatbot.png)
