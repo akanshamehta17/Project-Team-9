@@ -31,14 +31,8 @@ Summary:
 
   > Intents are created for the kind of questions that could be given as input.
 
-![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Intents.png)
-
-
   > Entities are defined according to the requirements.
   
- ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Entities.png)
- 
- 
   > Finally, the dialog is created to train the Watson on how to reply to the user.
   
  ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Dialog.png)
