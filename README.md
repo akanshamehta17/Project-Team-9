@@ -16,19 +16,36 @@ Summary:
 
 - Using IBM Bluemix services (Node-RED, Watson IoT Platform, dashDB and Watson Conversation), we have created a chatbot allowing us to ask questions like: What was the average temperature value you recorded ?, What is the maximum intensity of light today ?, How humid it is today? 
 
-- Apart from this, it also sends email notifications as alerts to the user when the temperature or humidity value increases or decreases beyond a comfortable range!
+- Apart from this, it also sends email notifications as alerts to the user!
+
+- Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls.
 
 ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
-
-- Using Javascript we have set up Client/Server page in Node-Red and AJAX to invoke Server using REST API calls. 
 
 - Used Texas Instrument TI CC2650 sensor in order to push real time Temperature/Light/Humidity values through Watson IoT Platform to Dash DB. 
 
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Sensor.jpg)
 
+- Used Watson Conversation service to train the chatbot to analyze the user input and provide appropriate responses.
+  > Intents are created for the kind of questions that could be given as input.
+
+![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Intents.jpg)
+
+  > Entities are defined according to the requirements.
+  
+ ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Entities.jpg)
+ 
+  > Finally, the dialog is created to train the Watson on how to reply to the user.
+  
+ ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Dialog.jpg)
+
 - The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
 
 ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/weather-chatbot.png)
+
+- The bot also sends Email alerts to the user when the temperature or humidity value increases or decreases beyond a comfortable range! This range of values is customizable according to the user's needs.
+
+![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Dialog.jpg)
 
 Use Cases :
 
