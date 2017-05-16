@@ -1,5 +1,5 @@
 # Project-Team-9
-
+**********************NOTE : WE ARE TEAM 9 ON GITHUB AND TEAM 15 ON CANVAS, SO, FOR THIS PROJECT, PLEASE GIVE THE SURVEY ON TEAM 15 IN CANVAS(KAMESH GANGWANI, AKANSHA MEHTA, RAKSHA KASHYAP, NIVEDITA NADKARNI*******************
 Project Idea 1
 Title:
 Notification application for Stock Exchange shares. 
