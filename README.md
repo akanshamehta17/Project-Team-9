@@ -28,7 +28,7 @@ Summary:
 
 - Using the CC2650 sensor, we push the real-time values of the surrounding weather captured by the sensor to the cloud using IBM Watson IoT Platform. The graph in the below image shows the data flow.
 
-![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/IoT.jpg)
+![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/IoT.png)
 
 
 - Used Watson Conversation service to train the chatbot to analyze the user input and provide appropriate responses.
