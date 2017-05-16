@@ -50,7 +50,7 @@ Summary:
 
 - Our app: Weather Chatbot! 
 
- ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/weather-chatbot.png)
+ ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/chatbot.png)
 
 
 Use Cases :
