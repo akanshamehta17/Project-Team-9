@@ -27,13 +27,17 @@ Summary:
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Sensor.jpg)
 
 - Used Watson Conversation service to train the chatbot to analyze the user input and provide appropriate responses.
+
+
   > Intents are created for the kind of questions that could be given as input.
 
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Intents.png)
 
+
   > Entities are defined according to the requirements.
   
  ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Entities.png)
+ 
  
   > Finally, the dialog is created to train the Watson on how to reply to the user.
   
@@ -43,9 +47,11 @@ Summary:
 
 ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/weather-chatbot.png)
 
+
 - The bot also sends Email alerts to the user when the temperature or humidity value increases or decreases beyond a comfortable range! This range of values is customizable according to the user's needs.
 
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Alert.png)
+
 
 Use Cases :
 
