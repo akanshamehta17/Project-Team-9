@@ -26,25 +26,28 @@ Summary:
 
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Sensor.jpg)
 
+- Using the CC2650 sensor, we push the real-time values of the surrounding weather captured by the sensor to the cloud using IBM Watson IoT Platform. The graph in the below image shows the data flow.
+
+![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/IoT.jpg)
+
+
 - Used Watson Conversation service to train the chatbot to analyze the user input and provide appropriate responses.
-
-
-  > Intents are created for the kind of questions that could be given as input.
-
-  > Entities are defined according to the requirements.
-  
-  > Finally, the dialog is created to train the Watson on how to reply to the user.
+  > The dialog is created to train Watson on how to reply to the user.
   
  ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Watson_Dialog.png)
+
+
 
 - The bot responses related to weather are being fetched through querying Dash DB in a Node Red Application as well as training Watson using Watson Conversation service.
 
 ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/weather-chatbot.png)
 
 
+
 - The bot also sends Email alerts to the user when the temperature or humidity value increases or decreases beyond a comfortable range! This range of values is customizable according to the user's needs.
 
 ![alt text](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/Alert.png)
+
 
 
 Use Cases :
