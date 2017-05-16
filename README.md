@@ -17,8 +17,16 @@ People willing to volunteer for a cause, often faces hurdle of finding options o
 
 ### Project Idea 3 Title: IOT Sensor Weather Chatbot - APPROVED
 
+Abstract :-— 
 
-Abstract:
+With everyday changes in the technology today, people need more comfort and easy to use devices. In this project, we have created a weather bot which fulfills a user’s need to know the room temperature, humidity, and intensity of light for
+various purposes including Air Condition mode, conducting a laboratory experiment and maintaining a proper environment
+for the workers in the manual labor industry. It also sends an alert message when the room environment is above or below your
+comfort or desired level. 
+
+Follow this link in order to chat with Weather Bot : https://iot-sensor-chatbot.mybluemix.net/bot
+
+Summary:
 
 - Using IBM Bluemix services (Node-RED, Watson IoT Platform, dashDB and Watson Conversation), we have created a chatbot allowing us to ask sensor questions like: What was the average temperature value you recorded ?, or How bright is day light now ?, How humid it is today? 
 
