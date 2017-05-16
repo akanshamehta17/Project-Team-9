@@ -40,7 +40,7 @@ Summary:
   
   (iv) Refined the chatbot answers by SQLs queries where max/min/avg/latest Temp/Humidity/Light values are the user input.
   
-  (v) Sending the responses to the client, i.e, browser url '/bot'
+  (v) Sending the responses to the client
 
   ![ScreenShot](https://raw.github.com/SJSU272LabS17/Project-Team-9/master/node-red.png)
 
