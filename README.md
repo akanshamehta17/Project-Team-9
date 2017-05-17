@@ -1,5 +1,5 @@
 # Project-Team-9
-**********************NOTE : WE ARE TEAM 9 ON GITHUB AND TEAM 15 ON CANVAS, SO, FOR THIS PROJECT, PLEASE GIVE THE SURVEY ON TEAM 15 IN CANVAS(KAMESH GANGWANI, AKANSHA MEHTA, RAKSHA KASHYAP, NIVEDITA NADKARNI*******************
+**********************NOTE : WE ARE TEAM 9 ON GITHUB AND TEAM 15 ON CANVAS, SO, FOR THIS PROJECT, PLEASE GIVE THE SURVEY ON TEAM 15 IN CANVAS(KAMESH GANGWANI, AKANSHA MEHTA, RAKSHA KASHYAP, NIVEDITA NADKARNI)*******************
 
 ### Project Idea 3 Title: IOT Sensor Weather Chatbot - APPROVED
 
@@ -10,7 +10,7 @@ various purposes including Air Condition mode, conducting a laboratory experimen
 for the workers in the manual labor industry. It also sends an alert message when the room environment is above or below your
 comfort or desired level. 
 
-Follow this link in order to chat with Weather Bot : https://iot-sensor-chatbot.mybluemix.net/bot
+Follow this link in order to chat with our Weather Bot : https://iot-sensor-chatbot.mybluemix.net/bot
 
 Summary:
 
